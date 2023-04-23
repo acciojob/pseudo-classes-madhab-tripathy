@@ -4,10 +4,7 @@
 	--first-para-background:black;
 	--last-para-color:red;
 }
-*{
-	margin:0;
-	padding:0;
-}
+
 html{
 	background-color: var(--body-background);
 }
@@ -18,7 +15,25 @@ html{
 .l-para{
 	color:var(--last-para-color);
 }
+ul{
+	width:300px;
+}
+li{
+	padding:5px;
+}
 li:first-child{
-	background-color:pin
+	background-color:white;
+}
+li:nth-child(2){
+	background-color:#5A5A5A;
+}
+li:nth-child(3){
+	background-color:pink;
+}
+li:nth-child(4){
+	background-color:#5A5A5A;
+}
+li:last-child{
+	background-color:#fff;
 }
 
