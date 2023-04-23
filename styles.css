@@ -8,6 +8,17 @@
 	margin:0;
 	padding:0;
 }
-body{
+html{
 	background-color: var(--body-background);
 }
+.f-para{
+	background-color:var(--first-para-background);
+	color:#fff;
+}
+.l-para{
+	color:var(--last-para-color);
+}
+li:first-child{
+	background-color:pin
+}
+
